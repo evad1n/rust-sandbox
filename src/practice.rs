@@ -1,6 +1,7 @@
 use std::cmp::Ordering;
 
 // This was for a coding problem that I tried to make as difficult as possible for myself. Learned a lot about traits, deriving, and such though!
+// https://www.codewars.com/kata/55c45be3b2079eccff00010f/rust
 fn order(sentence: &str) -> String {
     let mut x: Vec<Special> = sentence
         .split(' ')
